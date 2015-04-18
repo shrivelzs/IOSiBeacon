@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98518E0C1A9B5472001EADF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98518E0B1A9B5472001EADF2 /* main.m */; };
+		98518E0F1A9B5472001EADF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98518E0E1A9B5472001EADF2 /* AppDelegate.m */; };
+		98518E121A9B5472001EADF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98518E111A9B5472001EADF2 /* ViewController.m */; };
+		98518E151A9B5472001EADF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98518E131A9B5472001EADF2 /* Main.storyboard */; };
+		98518E171A9B5472001EADF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98518E161A9B5472001EADF2 /* Images.xcassets */; };
+		98518E1A1A9B5472001EADF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98518E181A9B5472001EADF2 /* LaunchScreen.xib */; };
+		98518E261A9B5472001EADF2 /* GisdelabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98518E251A9B5472001EADF2 /* GisdelabTests.m */; };
+		98518E301A9B5487001EADF2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98518E2F1A9B5487001EADF2 /* CoreBluetooth.framework */; };
+		98518E321A9B548F001EADF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98518E311A9B548F001EADF2 /* CoreLocation.framework */; };
+		98518E341A9B54A0001EADF2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98518E331A9B54A0001EADF2 /* SystemConfiguration.framework */; };
+		98518E361A9B54F9001EADF2 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98518E351A9B54F9001EADF2 /* libEstimoteSDK.a */; };
+		A26D9AF91ADF4FDC00D8A169 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26D9AF81ADF4FDC00D8A169 /* EstimoteSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98518E201A9B5472001EADF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98518DFE1A9B5472001EADF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98518E051A9B5472001EADF2;
+			remoteInfo = Gisdelab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98518E061A9B5472001EADF2 /* Gisdelab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gisdelab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98518E0A1A9B5472001EADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98518E0B1A9B5472001EADF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98518E0D1A9B5472001EADF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98518E0E1A9B5472001EADF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98518E101A9B5472001EADF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98518E111A9B5472001EADF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98518E141A9B5472001EADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98518E161A9B5472001EADF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98518E191A9B5472001EADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		98518E1F1A9B5472001EADF2 /* GisdelabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GisdelabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98518E241A9B5472001EADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98518E251A9B5472001EADF2 /* GisdelabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GisdelabTests.m; sourceTree = "<group>"; };
+		98518E2F1A9B5487001EADF2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		98518E311A9B548F001EADF2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		98518E331A9B54A0001EADF2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		98518E351A9B54F9001EADF2 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = EstimoteSDK/libEstimoteSDK.a; sourceTree = "<group>"; };
+		A26D9AF81ADF4FDC00D8A169 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = Gisdelab/EstimoteSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98518E031A9B5472001EADF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98518E361A9B54F9001EADF2 /* libEstimoteSDK.a in Frameworks */,
+				A26D9AF91ADF4FDC00D8A169 /* EstimoteSDK.framework in Frameworks */,
+				98518E341A9B54A0001EADF2 /* SystemConfiguration.framework in Frameworks */,
+				98518E321A9B548F001EADF2 /* CoreLocation.framework in Frameworks */,
+				98518E301A9B5487001EADF2 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98518E1C1A9B5472001EADF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98518DFD1A9B5472001EADF2 = {
+			isa = PBXGroup;
+			children = (
+				98518E351A9B54F9001EADF2 /* libEstimoteSDK.a */,
+				A26D9AF81ADF4FDC00D8A169 /* EstimoteSDK.framework */,
+				98518E331A9B54A0001EADF2 /* SystemConfiguration.framework */,
+				98518E311A9B548F001EADF2 /* CoreLocation.framework */,
+				98518E2F1A9B5487001EADF2 /* CoreBluetooth.framework */,
+				98518E081A9B5472001EADF2 /* Gisdelab */,
+				98518E221A9B5472001EADF2 /* GisdelabTests */,
+				98518E071A9B5472001EADF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98518E071A9B5472001EADF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98518E061A9B5472001EADF2 /* Gisdelab.app */,
+				98518E1F1A9B5472001EADF2 /* GisdelabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98518E081A9B5472001EADF2 /* Gisdelab */ = {
+			isa = PBXGroup;
+			children = (
+				98518E0D1A9B5472001EADF2 /* AppDelegate.h */,
+				98518E0E1A9B5472001EADF2 /* AppDelegate.m */,
+				98518E101A9B5472001EADF2 /* ViewController.h */,
+				98518E111A9B5472001EADF2 /* ViewController.m */,
+				98518E131A9B5472001EADF2 /* Main.storyboard */,
+				98518E161A9B5472001EADF2 /* Images.xcassets */,
+				98518E181A9B5472001EADF2 /* LaunchScreen.xib */,
+				98518E091A9B5472001EADF2 /* Supporting Files */,
+			);
+			path = Gisdelab;
+			sourceTree = "<group>";
+		};
+		98518E091A9B5472001EADF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98518E0A1A9B5472001EADF2 /* Info.plist */,
+				98518E0B1A9B5472001EADF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98518E221A9B5472001EADF2 /* GisdelabTests */ = {
+			isa = PBXGroup;
+			children = (
+				98518E251A9B5472001EADF2 /* GisdelabTests.m */,
+				98518E231A9B5472001EADF2 /* Supporting Files */,
+			);
+			path = GisdelabTests;
+			sourceTree = "<group>";
+		};
+		98518E231A9B5472001EADF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98518E241A9B5472001EADF2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98518E051A9B5472001EADF2 /* Gisdelab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98518E291A9B5472001EADF2 /* Build configuration list for PBXNativeTarget "Gisdelab" */;
+			buildPhases = (
+				98518E021A9B5472001EADF2 /* Sources */,
+				98518E031A9B5472001EADF2 /* Frameworks */,
+				98518E041A9B5472001EADF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gisdelab;
+			productName = Gisdelab;
+			productReference = 98518E061A9B5472001EADF2 /* Gisdelab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98518E1E1A9B5472001EADF2 /* GisdelabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98518E2C1A9B5472001EADF2 /* Build configuration list for PBXNativeTarget "GisdelabTests" */;
+			buildPhases = (
+				98518E1B1A9B5472001EADF2 /* Sources */,
+				98518E1C1A9B5472001EADF2 /* Frameworks */,
+				98518E1D1A9B5472001EADF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98518E211A9B5472001EADF2 /* PBXTargetDependency */,
+			);
+			name = GisdelabTests;
+			productName = GisdelabTests;
+			productReference = 98518E1F1A9B5472001EADF2 /* GisdelabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98518DFE1A9B5472001EADF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "shuzhang2@clarku.edu";
+				TargetAttributes = {
+					98518E051A9B5472001EADF2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					98518E1E1A9B5472001EADF2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 98518E051A9B5472001EADF2;
+					};
+				};
+			};
+			buildConfigurationList = 98518E011A9B5472001EADF2 /* Build configuration list for PBXProject "Gisdelab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98518DFD1A9B5472001EADF2;
+			productRefGroup = 98518E071A9B5472001EADF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98518E051A9B5472001EADF2 /* Gisdelab */,
+				98518E1E1A9B5472001EADF2 /* GisdelabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98518E041A9B5472001EADF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98518E151A9B5472001EADF2 /* Main.storyboard in Resources */,
+				98518E1A1A9B5472001EADF2 /* LaunchScreen.xib in Resources */,
+				98518E171A9B5472001EADF2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98518E1D1A9B5472001EADF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98518E021A9B5472001EADF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98518E121A9B5472001EADF2 /* ViewController.m in Sources */,
+				98518E0F1A9B5472001EADF2 /* AppDelegate.m in Sources */,
+				98518E0C1A9B5472001EADF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98518E1B1A9B5472001EADF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98518E261A9B5472001EADF2 /* GisdelabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98518E211A9B5472001EADF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98518E051A9B5472001EADF2 /* Gisdelab */;
+			targetProxy = 98518E201A9B5472001EADF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98518E131A9B5472001EADF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98518E141A9B5472001EADF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98518E181A9B5472001EADF2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98518E191A9B5472001EADF2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98518E271A9B5472001EADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98518E281A9B5472001EADF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98518E2A1A9B5472001EADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gisdelab",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/EstimoteSDK/Headers",
+				);
+				INFOPLIST_FILE = Gisdelab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98518E2B1A9B5472001EADF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gisdelab",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/EstimoteSDK/Headers",
+				);
+				INFOPLIST_FILE = Gisdelab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98518E2D1A9B5472001EADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GisdelabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gisdelab.app/Gisdelab";
+			};
+			name = Debug;
+		};
+		98518E2E1A9B5472001EADF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GisdelabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gisdelab.app/Gisdelab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98518E011A9B5472001EADF2 /* Build configuration list for PBXProject "Gisdelab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98518E271A9B5472001EADF2 /* Debug */,
+				98518E281A9B5472001EADF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98518E291A9B5472001EADF2 /* Build configuration list for PBXNativeTarget "Gisdelab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98518E2A1A9B5472001EADF2 /* Debug */,
+				98518E2B1A9B5472001EADF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98518E2C1A9B5472001EADF2 /* Build configuration list for PBXNativeTarget "GisdelabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98518E2D1A9B5472001EADF2 /* Debug */,
+				98518E2E1A9B5472001EADF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98518DFE1A9B5472001EADF2 /* Project object */;
+}
