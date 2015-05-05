@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB260A31-F53E-415A-A9EC-48D4F7BF1E3B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Gisdelab</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F2782D8C0CE20650C7CD99907A634C351D6149FD</key>
+		<string>https://github.com/shrivelzs/IOSiBeacon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Gisdelab.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F2782D8C0CE20650C7CD99907A634C351D6149FD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shrivelzs/IOSiBeacon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F2782D8C0CE20650C7CD99907A634C351D6149FD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F2782D8C0CE20650C7CD99907A634C351D6149FD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOSiBeacon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
